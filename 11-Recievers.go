@@ -10,7 +10,7 @@ func(m *myStruct) printFirstName() string {
 	return m.FirstName
 }
 
-func main() {
+func main1() {
 	var myVar myStruct
 	myVar.FirstName = "John"
 
