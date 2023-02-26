@@ -26,3 +26,5 @@ func main() {
 	// localhost:8080 (type this in any browser). First 1024 ports are priviledged, for SUDO only.
 	// second argument is a Handler.
 }
+
+// Create In terminal: go mod init myapp
