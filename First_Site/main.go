@@ -33,7 +33,7 @@ func Divide(w http.ResponseWriter, r *http.Request){
 	_, _ = fmt.Fprintf(w, fmt.Sprintf("%f divided by %f is %f", 100.0, 0.0, f))
 }
 
-// divideValues divides one float by another and returs the result of division
+// divideValues divides one float by another and returns the result of division
 func divideValues(x, y float32) (float32, error) {
 	if y <=0 {
 	err := errors.New("Cannot divide by zero")
